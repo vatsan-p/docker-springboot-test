@@ -1,12 +1,12 @@
-1. Setup AWS Free Tier Account
-2. Create EC2 Instance and install Jenkins, Java, Maven and Git
-3. Install AWS CLI on Jenkins instance
-4. Install Helm installed on Jenkins instance.
-5. Install Kubectl on Jenkins instance
-6. Install eksctl on Jenkins instance
-7. Install Docker in Jenkins and Jenkins have proper permission to perform Docker builds
-8. Make sure to Install Docker, Docker pipeline plugins
-9. Create ECR repo with 2 nodes on the node group in AWS
-10. Dockerfile created along with the application source code for springboot App.
-11. Namespace created in EKS cluster
-12. Helm deploy app on the namespace created.
+Setup AWS Free Tier Account
+Create EC2 Instance and install Jenkins, Java, Maven and Git
+Install AWS CLI on Jenkins instance
+Install Helm installed on Jenkins instance.
+Install Kubectl on Jenkins instance
+Install eksctl on Jenkins instance
+Install Docker in Jenkins and Jenkins have proper permission to perform Docker builds
+Make sure to Install Docker, Docker pipeline plugins
+Create ECR repo with 2 nodes on the node group in AWS
+Dockerfile created along with the application source code for springboot App.
+Namespace created in EKS cluster
+Helm deploy app on the namespace created.
