@@ -13,7 +13,7 @@ public class StartApplication {
     @GetMapping("/")
     public String index(final Model model) {
         model.addAttribute("title", "Kubernete Deployment using Helm, Jenkins Pipeline and Today's date is March 30th, 2026");
-        model.addAttribute("msg", "Hello All..We are deploying springboot Microservice App into EKS cluster using Helm + Jenkins Pipeline!!!!");
+        model.addAttribute("msg", "We have deployed springboot Microservice App into EKS cluster using Helm + Jenkins Pipeline!!!!");
         return "index";
     }
 
